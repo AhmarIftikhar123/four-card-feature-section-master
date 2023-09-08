@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+
+    
+    <link rel="stylesheet" href="tailwind_css.css" />
+
+    <link rel="stylesheet" href="vanila_css.css" />
+
+    <title>Frontend Mentor | Four card feature section</title>
+  </head>
+  <body
+    class="flex flex-col min-h-screen justify-center items-center text-center overflow-hidden"
+  >
+    <main class="container min-h-screen mt-10 ">
+      <!-- H's` -->
+
+      <h1 class="first_h1 text-2xl font-thin">Reliable, efficient delivery</h1>
+
+      <h1 class="second_h1 text-2xl font-medium">Powered by Technology</h1>
+
+      <p class="intro mt-2 block mx-auto text-sm">
+        Our Artificial Intelligence powered tools use millions of project data
+        <br>
+        points to ensure that your project is successful
+      </p>
+      <!-- grid_container -->
+
+      <div class="grid_container mt-7 grid grid-cols-3  ">
+        <!-- 1st grid -->
+
+        <div class="grid_items self-center">
+          <hr class="border-red-600 opacity-70" />
+
+          <!-- inner_conainer -->
+
+          <div class="box_details text-left py-4 px-6">
+            <h2 class="grid_heading">Supervisor</h2>
+
+            <p class="description text-sm mt-2">
+              Monitors activity to identify project roadblocks
+            </p>
+
+            <img
+              src="images/icon-supervisor.svg"
+              class="block ml-auto mt-6"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <!-- vartical_column -->
+
+        <div class="vertical_column  ">
+
+          <!-- 2nd grid -->
+
+        <div class="grid_items">
+          <hr class="border-blue-600 opacity-70"/>
+          <!-- inner_conainer -->
+
+          <div class="box_details text-left py-4 px-6">
+            <h2 class="grid_heading">Team Builder</h2>
+
+            <p class="description text-sm mt-2">
+              Scans our talent network to create the optimal team for your
+              project
+            </p>
+
+            <img src="images/icon-team-builder.svg" alt="" class="block ml-auto mt-6" />
+          </div>
+        </div>
+
+        <!-- 3rd grid -->
+
+        <div class="grid_items mt-6">
+          <hr class="border-sky-600 opacity-70"/>
+          <!-- inner_conainer -->
+
+          <div class="box_details text-left py-4 px-6">
+            <h2 class="grid_heading">Karma</h2>
+
+            <p class="description text-sm mt-2">
+              Regularly evaluates our talent to ensure quality
+            </p>
+
+            <img src="images/icon-karma.svg" alt="" class="block ml-auto mt-6"/>
+          </div>
+        </div>
+
+        </div>
+        
+        <!-- 4th grid -->
+
+        <div class="grid_items self-center ">
+          <hr class="border-orange-600 opacity-70" />
+          <!-- inner_conainer -->
+
+          <div class="box_details text-left py-4 px-6">
+
+            <h2 class="grid_heading">Calculator</h2>
+
+            <p class="description text-sm mt-2">
+              Uses data from past projects to provide better delivery estimates
+            </p>
+
+            <img src="images/icon-calculator.svg" alt="" class="block ml-auto mt-6"/>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
